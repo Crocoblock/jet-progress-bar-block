@@ -1,0 +1,42 @@
+{
+	"name": "jet-blocks/progress-bar",
+	"title": "Progress Bar",
+	"icon": "chart-bar",
+	"category": "widgets",
+	"attributes": {
+		"scale": {
+			"type": "string",
+			"default": 100
+		},
+		"barValue": {
+			"type": "string",
+			"default": 50
+		},
+		"type": {
+			"type": "string",
+			"default": "horizontal"
+		},
+		"height": {
+			"type": "number",
+			"default": 300
+		},
+		"lineThickness": {
+			"type": "number",
+			"default": 60
+		},
+		"color": {
+			"type": "string",
+			"default": "#333"
+		},
+		"scaleColor": {
+			"type": "string",
+			"default": "#ddd"
+		},
+		"borderRadius": {
+			"type": "number",
+			"default": 0
+		}
+	},
+	"editorScript": "jet-progress-bar-block-editor",
+	"editorStyle": "jet-progress-bar-block-editor"
+}
